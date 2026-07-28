@@ -9,7 +9,7 @@ Last updated: 2025-09-17
 !!! warning "Demo scope"
     This example is based on a `public network site and is intended for demonstration purposes only`. It shows how several Azure resources can work together to achieve the desired result. Review [Important Considerations for Production Environment](#important-considerations-for-production-environment) before adapting it. These demos are intended as a guide and are based on personal experience. For official guidance, support, or more detailed information, refer to Microsoft's official documentation or [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME).
 
-<details>
+<details markdown="1">
 <summary><b>List of References</b> (Click to expand)</summary>
 
 - [Power Apps pricing](https://www.microsoft.com/en-us/power-platform/products/power-apps/)
@@ -59,7 +59,7 @@ Last updated: 2025-09-17
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Table of Content</b> (Click to expand)</summary>
 
 - [Prerequisites](#prerequisites)
@@ -97,7 +97,7 @@ flowchart LR
     D:::step
 ```
 
-<details>
+<details markdown="1">
 <summary><b> More details about it here </b> (Click to expand)</summary>
   
 > - We all `start with scripting`, no matter the language, it’s the first step. `Simple/complex instructions, written line by line`, to get something done
@@ -126,14 +126,14 @@ flowchart LR
 
 ## Important Considerations for Production Environment
 
-<details>
+<details markdown="1">
   <summary>Private Network Configuration</summary>
 
  > For enhanced security, consider configuring your Azure resources to operate within a private network. This can be achieved using Azure Virtual Network (VNet) to isolate your resources and control inbound and outbound traffic. Implementing private endpoints for services like Azure Blob Storage and Azure Functions can further secure your data by restricting access to your VNet.
 
 </details>
 
-<details>
+<details markdown="1">
   <summary>Security</summary>
 
   > Ensure that you implement appropriate security measures when deploying this solution in a production environment. This includes: <br/>
@@ -144,7 +144,7 @@ flowchart LR
 
 </details>
 
-<details>
+<details markdown="1">
   <summary>Scalability</summary>
 
   > While this example provides a basic setup, you may need to scale the resources based on your specific requirements. Azure services offer various scaling options to handle increased workloads. Consider using: <br/>
@@ -154,20 +154,20 @@ flowchart LR
 
 </details>
 
-<details>
+<details markdown="1">
   <summary>Cost Management</summary>
 
   > Monitor and manage the costs associated with your Azure resources. Use Azure Cost Management and Billing to track usage and optimize resource allocation.
 
 </details>
 
-<details>
+<details markdown="1">
   <summary>Compliance</summary>
 
   > Ensure that your deployment complies with relevant regulations and standards. Use Azure Policy to enforce compliance and governance policies across your resources.
 </details>
 
-<details>
+<details markdown="1">
   <summary>Disaster Recovery</summary>
    
 > Implement a disaster recovery plan to ensure business continuity in case of failures. Use Azure Site Recovery and backup solutions to protect your data and applications.
@@ -220,7 +220,7 @@ flowchart LR
     - `Max Scale Out (Instances)`: The maximum number of instances the service can scale out to.
     - `Example AI Use Cases`: Real-world scenarios where each plan excels.
 
-<details>
+<details markdown="1">
 <summary><strong>Flex Consumption</strong></summary>
 
 | Feature | Description |
@@ -234,7 +234,7 @@ flowchart LR
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Consumption</strong></summary>
 
 | Feature | Description |
@@ -248,7 +248,7 @@ flowchart LR
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Functions Premium</strong></summary>
 
 | Feature | Description |
@@ -262,7 +262,7 @@ flowchart LR
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>App Service</strong></summary>
 
 | Feature | Description |
@@ -276,7 +276,7 @@ flowchart LR
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Container Apps Env.</strong></summary>
 
 | Feature | Description |
