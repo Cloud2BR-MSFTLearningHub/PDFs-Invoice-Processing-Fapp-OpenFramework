@@ -426,9 +426,10 @@ flowchart LR
 
    <img width="550" alt="image" src="https://github.com/user-attachments/assets/352c95c7-bf6a-4e1d-937b-98dc018b69a4">
 
- > [!IMPORTANT]
- > This example is using system-assigned managed identity to assign RBACs (Role-based Access Control).
- > <img width="550" alt="image" src="https://github.com/user-attachments/assets/dd5ce062-9720-40d3-b860-778048c38e6c">
+!!! important "Managed identity and RBAC"
+    This example uses a system-assigned managed identity to assign role-based access control (RBAC).
+
+    <img width="550" alt="Function App managed identity configuration" src="https://github.com/user-attachments/assets/dd5ce062-9720-40d3-b860-778048c38e6c">
 
 - Please assign the `Storage Blob Data Contributor` and `Storage File Data SMB Share Contributor` roles to the `Function App` within the `Storage Account` related to the runtime (the one created with the function app).
 
