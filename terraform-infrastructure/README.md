@@ -47,8 +47,8 @@ graph TD;
     C -->|Delete Resource if needed| F[terraform destroy]
 ```
 
-> [!IMPORTANT]
-> Please modify `terraform.tfvars` with your information, then run the following flow. If you need more visual guidance, please check the video that illustrates the provisioning steps. 
+!!! warning "Review deployment values"
+  Modify `terraform.tfvars` with values for your environment before running the following flow. If you need visual guidance, review the provisioning video.
 
 1. **Login to Azure**: This command logs you into your Azure account. It opens a browser window where you can enter your Azure credentials. Once logged in, you can manage your Azure resources from the command line.
 

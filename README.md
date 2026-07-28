@@ -10,8 +10,8 @@ Last updated: 2025-09-17
 
 ----------
 
-> [!IMPORTANT]
-> This example is based on a `public network site and is intended for demonstration purposes only`. It showcases how several Azure resources can work together to achieve the desired result. Consider the section below about [Important Considerations for Production Environment](#important-considerations-for-production-environment). Please note that `these demos are intended as a guide and are based on my personal experiences. For official guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
+!!! warning "Demo scope"
+    This example is based on a `public network site and is intended for demonstration purposes only`. It shows how several Azure resources can work together to achieve the desired result. Review [Important Considerations for Production Environment](#important-considerations-for-production-environment) before adapting it. These demos are intended as a guide and are based on personal experience. For official guidance, support, or more detailed information, refer to Microsoft's official documentation or [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME).
 
 <details>
 <summary><b>List of References</b> (Click to expand)</summary>
@@ -111,8 +111,8 @@ flowchart LR
 
 </details>
 
-> [!NOTE]
-> A landing zone is a general `cloud framework that sets up the core structure for all workloads`. Each use case (like an app, data pipeline, or API) then builds on top of this framework, using the `same environments (Dev → Test → UAT → Prod) and CI/CD pipelines to move code safely into production.` It’s general by design, but `applied per use case.`
+!!! note "Landing zone"
+    A landing zone is a general `cloud framework that sets up the core structure for all workloads`. Each use case, such as an app, data pipeline, or API, builds on this framework using the same environments (Dev → Test → UAT → Prod) and CI/CD pipelines to move code safely into production. It is general by design, but applied per use case.
 
 > How to parse PDFs from an Azure Storage Account, process them using a Open Framework (needs manual configuration), and store the results in Cosmos DB for further analysis. <br/> <br/>
 >
@@ -120,11 +120,9 @@ flowchart LR
 > 2. An Azure Function is triggered by the upload, which uses an Open Framework, and multiple customizations as part of an API call to analyze the PDFs.  <br/>
 > 3. The extracted data is parsed and subsequently stored in a Cosmos DB database, ensuring a seamless and automated workflow from document upload to data storage. 
 
-> [!NOTE]
-> Limitations of this approach: <br/>
->
-> - Requires significant manual effort to structure and format extracted data. <br/>
-> - Limited in handling complex layouts and non-text elements like images and charts. <br/>
+!!! note "Approach limitations"
+    - Requires significant manual effort to structure and format extracted data.
+    - Has limited support for complex layouts and non-text elements such as images and charts.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cda874fc-6cca-4857-ac5d-2f8d7887e36d" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
@@ -197,8 +195,8 @@ flowchart LR
     1. Please follow the [Terraform deployment guide](https://github.com/Cloud2BR-MSFTLearningHub/PDFs-Invoice-Processing-Fapp-OpenFramework/blob/main/terraform-infrastructure/README.md) to deploy the necessary Azure resources for the workshop.
     2. Then, follow each [each section](#step-1-set-up-your-azure-environment) but `skip the creation of each resource`.
 
-> [!IMPORTANT]
-> Regarding `Networking`, this example will cover `Public access configuration`, and `system-managed identity`. However, please ensure you `review your privacy requirements and adjust network and access settings as necessary for your specific case`.
+!!! warning "Networking and access"
+    This example covers `Public access configuration` and `system-managed identity`. Review your privacy requirements and adjust network and access settings for your specific environment.
 
 ## Overview 
 
@@ -218,20 +216,13 @@ flowchart LR
 
 > In the context of Azure Function Apps, a `hosting option refers to the plan you choose to run your function app`. This choice affects how your function app is scaled, the resources available to each function app instance, and the support for advanced functionalities like virtual network connectivity and container support.
 
-> [!TIP]  
->
-> - `Scale to Zero`: Indicates whether the service can automatically scale down to zero instances when idle.  
->   - **IDLE** stands for:  
->     - **I** – Inactive  
->     - **D** – During  
->     - **L** – Low  
->     - **E** – Engagement  
->   - In other words, when the application is not actively handling requests or events (it's in a low-activity or paused state).
-> - `Scale Behavior`: Describes how the service scales (e.g., `event-driven`, `dedicated`, or `containerized`).  
-> - `Virtual Networking`: Whether the service supports integration with virtual networks for secure communication.  
-> - `Dedicated Compute & Reserved Cold Start`: Availability of always-on compute to avoid cold starts and ensure low latency.  
-> - `Max Scale Out (Instances)`: Maximum number of instances the service can scale out to.  
-> - `Example AI Use Cases`: Real-world scenarios where each plan excels.
+!!! tip "Hosting option terms"
+    - `Scale to Zero`: Indicates whether the service can automatically scale down to zero instances when idle. In other words, the application is not actively handling requests or events.
+    - `Scale Behavior`: Describes how the service scales, such as `event-driven`, `dedicated`, or `containerized`.
+    - `Virtual Networking`: Indicates whether the service supports virtual-network integration for secure communication.
+    - `Dedicated Compute & Reserved Cold Start`: Indicates the availability of always-on compute to avoid cold starts and ensure low latency.
+    - `Max Scale Out (Instances)`: The maximum number of instances the service can scale out to.
+    - `Example AI Use Cases`: Real-world scenarios where each plan excels.
 
 <details>
 <summary><strong>Flex Consumption</strong></summary>
@@ -768,8 +759,8 @@ azure-cosmos==4.3.0
 
      <img width="550" alt="image" src="https://github.com/user-attachments/assets/94052759-4c0f-483d-8a78-5803fab5c961">
 
-> [!IMPORTANT]
-If you need further assistance with the code, please [view all the function code](https://github.com/Cloud2BR-MSFTLearningHub/PDFs-Invoice-Processing-Fapp-OpenFramework/tree/main/src).
+!!! info "Function source code"
+    For further assistance with the code, [view all the function code](https://github.com/Cloud2BR-MSFTLearningHub/PDFs-Invoice-Processing-Fapp-OpenFramework/tree/main/src).
 
 ## Step 5: Test the solution
 
