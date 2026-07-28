@@ -1,10 +1,6 @@
 # Demo: Automated PDF Invoice Processing with Open Framework (full-code approach)
 
-`Azure Storage + Function App + Open Framework +  Cosmos DB`
-
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+`Azure Storage + Function App + Open Framework + Cosmos DB`
 
 Last updated: 2025-09-17
 
@@ -791,9 +787,3 @@ azure-cosmos==4.3.0
 
    <img width="550" alt="image" src="https://github.com/user-attachments/assets/28bba46b-eaf0-4bbc-a565-f7c1ad8a0ac6">
 
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1286-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-09-17</p>
-</div>
-<!-- END BADGE -->
