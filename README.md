@@ -785,5 +785,5 @@ azure-cosmos==4.3.0
 
 - Validate that the information was uploaded to the Cosmos DB. Under `Data Explorer`, check your `Database`:
 
-   <img width="550" alt="image" src="https://github.com/user-attachments/assets/28bba46b-eaf0-4bbc-a565-f7c1ad8a0ac6">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/28bba46b-eaf0-4bbc-a565-f7c1ad8a0ac6">
 
