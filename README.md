@@ -194,7 +194,7 @@ flowchart LR
 
 - If you're choosing the `Infrastructure via Azure Portal`, please start [here in this section](#step-1-set-up-your-azure-environment).
 - If you're choosing the `Infrastructure via Terraform` approach:
-    1. Please follow the [Terraform guide](./terraform-infrastructure/) to deploy the necessary Azure resources for the workshop.
+    1. Please follow the [Terraform deployment guide](https://github.com/Cloud2BR-MSFTLearningHub/PDFs-Invoice-Processing-Fapp-OpenFramework/blob/main/terraform-infrastructure/README.md) to deploy the necessary Azure resources for the workshop.
     2. Then, follow each [each section](#step-1-set-up-your-azure-environment) but `skip the creation of each resource`.
 
 > [!IMPORTANT]
@@ -462,7 +462,7 @@ flowchart LR
 
 > Steps to assing it:
 
-1. **Open Azure CLI**: Go to the [Azure portal](portal.azure.com) and click on the icon for the Azure CLI.
+1. **Open Azure CLI**: Go to the [Azure portal](https://portal.azure.com) and click on the icon for the Azure CLI.
 
      <img width="550" alt="image" src="https://github.com/user-attachments/assets/b2643d9a-7364-454a-bb24-f16270e99d92">
 
@@ -769,7 +769,7 @@ azure-cosmos==4.3.0
      <img width="550" alt="image" src="https://github.com/user-attachments/assets/94052759-4c0f-483d-8a78-5803fab5c961">
 
 > [!IMPORTANT]
-If you need further assistance with the code, please click [here to view all the function code](./src/).
+If you need further assistance with the code, please [view all the function code](https://github.com/Cloud2BR-MSFTLearningHub/PDFs-Invoice-Processing-Fapp-OpenFramework/tree/main/src).
 
 ## Step 5: Test the solution
 
