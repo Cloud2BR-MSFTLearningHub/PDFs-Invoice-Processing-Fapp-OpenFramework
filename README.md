@@ -329,11 +329,11 @@ flowchart LR
    - Enter a Storage Account name (e.g., `contosostorageaidemo`).
    - Choose the region and performance options, and click `Next` to continue.
 
-        <img width="550" alt="image" src="https://github.com/user-attachments/assets/4db31956-2d36-4581-98cf-ec0e68d55037">
+    <img width="550" alt="Configure the Azure Storage account" src="https://github.com/user-attachments/assets/4db31956-2d36-4581-98cf-ec0e68d55037">
 
    - If you need to modify anything related to `Security, Access protocols, Blob Storage Tier`, you can do that in the `Advanced` tab.
 
-        <img width="550" alt="image" src="https://github.com/user-attachments/assets/5d3da139-6e7a-4bb6-a695-deb1c314ccd3">
+    <img width="550" alt="Configure advanced Azure Storage settings" src="https://github.com/user-attachments/assets/5d3da139-6e7a-4bb6-a695-deb1c314ccd3">
 
    - Regarding `Networking`, this example will cover `Public access` configuration. However, please ensure you review your privacy requirements and adjust network and access settings as necessary for your specific case.
   
@@ -341,7 +341,7 @@ flowchart LR
 
    - Click **Review + create** and then **Create**. Once is done, you'll be able to see it in your Resource Group.
 
-        <img width="550" alt="image" src="https://github.com/user-attachments/assets/8b61b79c-9f3f-47f0-b59f-6720edebe41e">
+    <img width="550" alt="Review and create the Azure Storage account" src="https://github.com/user-attachments/assets/8b61b79c-9f3f-47f0-b59f-6720edebe41e">
 
 2. **Create a Blob Container**:
    - Go to your Storage Account.
@@ -350,7 +350,7 @@ flowchart LR
    - Enter a name for the container (e.g., `pdfinvoices`) and set the public access level to **Private**.
    - Click **Create**.
 
-        <img width="550" alt="image" src="https://github.com/user-attachments/assets/9b4900e3-7ce8-42aa-b5d9-c2fbb2417721">
+    <img width="550" alt="Create the private PDF invoice blob container" src="https://github.com/user-attachments/assets/9b4900e3-7ce8-42aa-b5d9-c2fbb2417721">
 
 ## Step 3: Set Up Azure Cosmos DB
 
